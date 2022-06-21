@@ -31,7 +31,6 @@ const ProfileForm = () => {
       }
     ).then((res) => {
       // assumption: always succeeds
-      console.log(res);
       history.replace('/');
     });
   };
